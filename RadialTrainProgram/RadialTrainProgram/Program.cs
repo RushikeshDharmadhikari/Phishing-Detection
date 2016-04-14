@@ -7,15 +7,9 @@ namespace RadialNetworkTrain
         static void Main(string[] args)
         {
             Console.WriteLine("\nBegin radial basis function (RBF) network training\n");
-            
-
-            
-            
-            
+    
             int counter = 0;
             var reader1 = new StreamReader(File.OpenRead(@"C:\Users\Rushikesh.Dharmadhik\Downloads\Training Dataset.txt"));
-            
-          
             Console.WriteLine("Reading Files.....");
             double[][] allData = new double[1500][];
             
@@ -31,38 +25,6 @@ namespace RadialNetworkTrain
                     allData[counter][i] = Double.Parse(values[i]);
                 }
                 counter++;
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
             }
             Console.WriteLine("\nFirst four and last line of normalized, encoded input data:\n");
             Helpers.ShowMatrix(allData, 4, 3, true, true);
@@ -129,9 +91,6 @@ namespace RadialNetworkTrain
                 testData[i] = allData[allIndices[j++]];
 
         } 
-
-
-
     } 
 
 
@@ -197,12 +156,6 @@ namespace RadialNetworkTrain
                 result[k++] = this.oBiases[i];
             return result;
         }
-
-        
-        
-
-        
-
         private double MeanSquaredError(double[][] trainData, double[] weights)
         {
             
@@ -291,11 +244,6 @@ namespace RadialNetworkTrain
                 tempResults[k] += oBiases[k]; 
 
             double[] finalOutputs = Softmax(tempResults); 
-
-            
-            
-            
-
             Array.Copy(finalOutputs, this.outputs, finalOutputs.Length); 
 
             double[] returnResult = new double[numOutput]; 
@@ -427,26 +375,6 @@ namespace RadialNetworkTrain
                 this.widths[i] = width;
         }
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-        
-        
-        
-        
-        
-
         private double[] DoWeights(double[][] trainData, int maxIterations)
         {
 
@@ -570,18 +498,12 @@ namespace RadialNetworkTrain
                         smallesttGlobalError = newError;
                     }
 
-                    
-
                 } 
 
                 ++iteration;
 
             } 
-
-            
-
-            
-            this.SetWeights(bestGlobalPosition);
+        this.SetWeights(bestGlobalPosition);
             double[] returnResult = new double[(numHidden * numOutput) + numOutput];
             Array.Copy(bestGlobalPosition, returnResult, bestGlobalPosition.Length);
 
@@ -661,28 +583,6 @@ namespace RadialNetworkTrain
             this.smallestError = smallestError;
         }
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
     } 
 
     
@@ -752,47 +652,3 @@ namespace RadialNetworkTrain
         }
 
     } 
-
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-
-    
-
-} 
