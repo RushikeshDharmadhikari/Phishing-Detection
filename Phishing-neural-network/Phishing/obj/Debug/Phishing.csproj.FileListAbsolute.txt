@@ -10,3 +10,9 @@ C:\Users\Rushikesh.Dharmadhik\Downloads\Phishing-neural-network\Phishing-neural-
 C:\Users\Rushikesh.Dharmadhik\Downloads\Phishing-neural-network\Phishing-neural-network\Phishing\bin\Debug\Phishing.exe
 C:\Users\Rushikesh.Dharmadhik\Downloads\Phishing-neural-network\Phishing-neural-network\Phishing\bin\Debug\Phishing.pdb
 C:\Users\Rushikesh.Dharmadhik\Downloads\Phishing-neural-network\Phishing-neural-network\Phishing\obj\Debug\Phishing.csprojResolveAssemblyReference.cache
+C:\Users\Rushikesh.Dharmadhik\Documents\Project\Phishing-Detection\Phishing-neural-network\Phishing\bin\Debug\Phishing.exe.config
+C:\Users\Rushikesh.Dharmadhik\Documents\Project\Phishing-Detection\Phishing-neural-network\Phishing\obj\Debug\Phishing.exe
+C:\Users\Rushikesh.Dharmadhik\Documents\Project\Phishing-Detection\Phishing-neural-network\Phishing\obj\Debug\Phishing.pdb
+C:\Users\Rushikesh.Dharmadhik\Documents\Project\Phishing-Detection\Phishing-neural-network\Phishing\bin\Debug\Phishing.exe
+C:\Users\Rushikesh.Dharmadhik\Documents\Project\Phishing-Detection\Phishing-neural-network\Phishing\bin\Debug\Phishing.pdb
+C:\Users\Rushikesh.Dharmadhik\Documents\Project\Phishing-Detection\Phishing-neural-network\Phishing\obj\Debug\Phishing.csprojResolveAssemblyReference.cache

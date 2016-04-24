@@ -8,3 +8,4 @@ c:\users\rushikesh.dharmadhik\documents\visual studio 2015\Projects\FeatureColle
 c:\users\rushikesh.dharmadhik\documents\visual studio 2015\Projects\FeatureCollector\FeatureCollector\obj\Debug\FeatureCollector.pdb
 C:\Users\Rushikesh.Dharmadhik\documents\visual studio 2015\Projects\FeatureCollector\FeatureCollector\bin\Debug\phantomjs.exe
 C:\Users\Rushikesh.Dharmadhik\documents\visual studio 2015\Projects\FeatureCollector\FeatureCollector\bin\Debug\phantomjs-license.txt
+C:\Users\Rushikesh.Dharmadhik\documents\visual studio 2015\Projects\FeatureCollector\FeatureCollector\bin\Debug\PageRankSharp.dll

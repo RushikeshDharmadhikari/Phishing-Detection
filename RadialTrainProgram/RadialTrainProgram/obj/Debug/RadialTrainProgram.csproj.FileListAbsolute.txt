@@ -4,3 +4,9 @@ c:\users\rushikesh.dharmadhik\documents\visual studio 2015\Projects\RadialTrainP
 c:\users\rushikesh.dharmadhik\documents\visual studio 2015\Projects\RadialTrainProgram\RadialTrainProgram\bin\Debug\RadialTrainProgram.pdb
 c:\users\rushikesh.dharmadhik\documents\visual studio 2015\Projects\RadialTrainProgram\RadialTrainProgram\obj\Debug\RadialTrainProgram.exe
 c:\users\rushikesh.dharmadhik\documents\visual studio 2015\Projects\RadialTrainProgram\RadialTrainProgram\obj\Debug\RadialTrainProgram.pdb
+C:\Users\Rushikesh.Dharmadhik\Documents\Project\Phishing-Detection\RadialTrainProgram\RadialTrainProgram\bin\Debug\RadialTrainProgram.exe.config
+C:\Users\Rushikesh.Dharmadhik\Documents\Project\Phishing-Detection\RadialTrainProgram\RadialTrainProgram\obj\Debug\RadialTrainProgram.exe
+C:\Users\Rushikesh.Dharmadhik\Documents\Project\Phishing-Detection\RadialTrainProgram\RadialTrainProgram\obj\Debug\RadialTrainProgram.pdb
+C:\Users\Rushikesh.Dharmadhik\Documents\Project\Phishing-Detection\RadialTrainProgram\RadialTrainProgram\obj\Debug\RadialTrainProgram.csprojResolveAssemblyReference.cache
+C:\Users\Rushikesh.Dharmadhik\Documents\Project\Phishing-Detection\RadialTrainProgram\RadialTrainProgram\bin\Debug\RadialTrainProgram.exe
+C:\Users\Rushikesh.Dharmadhik\Documents\Project\Phishing-Detection\RadialTrainProgram\RadialTrainProgram\bin\Debug\RadialTrainProgram.pdb

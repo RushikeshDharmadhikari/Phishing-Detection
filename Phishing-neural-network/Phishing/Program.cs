@@ -22,25 +22,30 @@ namespace Phishing
             
             
             Console.WriteLine("Reading Files.....");
-            double[][] allData = new double[1500][];
+            double[][] allData = new double[10000][];
             
-            while (!reader1.EndOfStream && counter < 1500)
+            while (!reader1.EndOfStream && counter < 10000)
             {
                 
                 string line = reader1.ReadLine();
                 string[] values = line.Split(',');
-                allData[counter] = new double[values.Length];
+                allData[counter] = new double[32];
 
-                for (int i = 0; i < values.Length; i++)
+                for (int i = 0; i < 30; i++)
                 {
                     allData[counter][i] = Double.Parse(values[i]);
                 }
+                allData[counter][30] = Double.Parse(values[30]);
+                if (allData[counter][30] == -1.0)
+                    allData[counter][31] = 1.0;
+                else
+                    allData[counter][31] = -1.0;
                 counter++;
-               
             }
 
+
             reader1.Close();
-            ShowMatrix(allData, 1500, 1, true);
+            ShowMatrix(allData, 10000, 1, true);
             Console.Read();
             Console.WriteLine("\nFirst 6 rows of entire 2000-item data set:");
             ShowMatrix(allData, 6, 1, true);
@@ -63,12 +68,12 @@ namespace Phishing
             Console.WriteLine("First 3 rows of normalized test data:");
             ShowMatrix(testData, 3, 1, true);
 
-            Console.WriteLine("\nCreating a 5-input, 7-hidden, 2-output neural network");
+            Console.WriteLine("\nCreating a 30-input, 15-hidden, 2-output neural network");
             Console.Write("Hard-coded tanh function for input-to-hidden and softmax for ");
             Console.WriteLine("hidden-to-output activations");
             const int numInput = 30;
             const int numHidden = 15;
-            const int numOutput = 1;
+            const int numOutput = 2;
             NeuralNetwork nn = new NeuralNetwork(numInput, numHidden, numOutput);
 
             Console.WriteLine("\nInitializing weights and bias to small random values");
